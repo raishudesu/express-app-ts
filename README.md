@@ -8,19 +8,19 @@ To use this repository:
 git clone https://github.com/raishudesu/express-app-ts
 ```
 
-Move to its directory:
+## Move to its directory:
 
 ```
 cd express-app-ts
 ```
 
-Install dependencies:
+## Install dependencies:
 
 ```
 npm install
 ```
 
-**Note**
+**Note:**
 Create your own .env file and add `PORT` and `MONGO_URI`
 
 Example:
@@ -32,7 +32,7 @@ MONGO_URI=mongodb+srv://<yourMongoDbUsername>:<yourMongoDbPassword>@expressapp.p
 
 Use your own MongoDb Atlas link.
 
-Run the server:
+## Run the server:
 
 ```
 npm run dev
